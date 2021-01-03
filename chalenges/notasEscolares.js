@@ -1,4 +1,5 @@
 const result = nota => {
+   
    if(nota >=90) {
       console.log('A')
 
@@ -12,9 +13,10 @@ const result = nota => {
       console.log('D')
    } else console.log('F'); 
 }
+
 const sisNotas = (nota, fn) => fn(nota)
 
-sisNotas(59, result)
+sisNotas(96, result)
 
 
 
